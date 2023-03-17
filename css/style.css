@@ -5,3 +5,36 @@ h1 {
     color: rgb(3, 114, 77);
     text-align: center;
 }
+header {
+    width:100%;
+    background-color: blueviolet;
+}
+
+.logo{
+    color: bisque;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+nav{
+    color: bisque;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.banner{
+    width: 100%;
+}
+
+.container{
+    background-color: azure;
+    width: 80%;
+    margin: auto;
+}
+
+footer{
+    background-color: brown;
+    color: blanchedalmond;
+    font-size: 1.3em;
+    text-align: center;
+}
