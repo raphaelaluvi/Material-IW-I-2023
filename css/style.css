@@ -1,25 +1,23 @@
 body{
-    background-color: 
+    background-color: #023859;
 }
-h1 {
-    color: rgb(3, 114, 77);
-    text-align: center;
-}
+
 header {
     width:100%;
-    background-color: blueviolet;
+    background-color: #0367A6;
+    padding: 0.5%;
 }
 
 .logo{
     color: bisque;
     text-align: center;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 nav{
     color: bisque;
     text-align: center;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 .banner{
@@ -27,14 +25,42 @@ nav{
 }
 
 .container{
-    background-color: azure;
+    background-color: #064a75;
     width: 80%;
     margin: auto;
 }
 
+h1 {
+    color: #88A1D9;
+    text-align: center;
+    font-size: 1.6em;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+
+h2 {
+    color: #7ca1f0;
+    text-align: center;
+    font-size: 1.3em;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+p,ul {
+    color: #a9b7d6;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+}
+
 footer{
-    background-color: brown;
+    background-color:#0367A6;
     color: blanchedalmond;
     font-size: 1.3em;
     text-align: center;
 }
+
+
+
+
+
+
