@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #023859;
     font-family: 'Merienda', cursive;
@@ -7,18 +11,18 @@ header {
     width:100%;
     background-color: #0367A6;
     padding: 0.5%;
-    
 }
 
 .logo{
-    text-align: center;
-    color: bisque;   
+    color: #88A1D9;
+    text-align: center; 
     font-size: 1.2em;
 }
 
 nav{
-    color: bisque;
     font-size: 1.2em;
+    color: #88A1D9;
+    text-align: center;
 }
 
 .banner{
@@ -76,10 +80,12 @@ img{
 }
 
 footer{
+    width:100%;
     background-color:#064a75;
     color: #7ca1f0;
     font-size: 1.2em;
-    
+    text-align: center;
+
 }
 
 .icone{
@@ -97,7 +103,15 @@ figcaption{
     text-indent: 15px;
 }
 
+a{
+    color: #88A1D9;
+}
 
+.imgesquerda{
+    float: left;
+}
 
-
-
+.imgtam{
+    width: 30%;
+    margin: 1%;
+}
