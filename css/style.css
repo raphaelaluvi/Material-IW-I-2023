@@ -123,6 +123,11 @@ a{
     width: 20%;
 }
 
+.legenda{
+    text-align: center;
+    padding-top: 0.5%;
+}
+
 .linha{
     display: flex;
     flex-flow: row wrap;
@@ -131,6 +136,7 @@ a{
 
 .col-6{
     width: 50%;
+    margin-top: 2.5%;
 }
 
 @media (max-width: 800px){
@@ -143,9 +149,29 @@ a{
 }
 
 .imgcard{
-    width: 80%;
+    width: 90%;
 }
 
 .descricao{
     text-align: center;
+}
+
+.img-card{
+    background-image: linear-gradient(to bottom right, #023859, #0a5a8c);
+    border-style: double;
+    border-width: 5px;
+    border-color: #023859;
+    box-shadow: 10px 10px 10px 1px #186493; 
+    width: 70%;
+    margin: auto;
+}
+
+.card{
+    background-image: linear-gradient(to bottom right, #023859, #0a5a8c);
+    border-style: double;
+    border-width: 5px;
+    border-color: #023859;
+    box-shadow: 10px 10px 10px 1px #186493; 
+    width: 70%;
+    margin: auto;
 }
