@@ -74,8 +74,7 @@ p{
 
 img{
     width: 30%;
-    padding-left: 1%;
-    padding-right: 1%;
+
 }
 
 footer{
@@ -173,4 +172,23 @@ a{
     box-shadow: 10px 10px 10px 1px #186493; 
     width: 70%;
     margin: auto;
+}
+
+table{
+    font-family: 'Merienda', cursive;
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+    background-color: #5d7ec7;
+}
+  
+td, th{
+    border: 2.5px solid #023859;
+    text-align: center;
+    padding: 8px;
+    border-style: dashed;
+}
+  
+tr:nth-child(even) {
+    background-color: #064a75;
 }
