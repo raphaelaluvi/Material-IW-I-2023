@@ -70,6 +70,14 @@ p{
     padding-right: 1%;
     line-height: 1.2;
     font-size: 1.0em;
+     
+}
+
+.listameio{
+    list-style-image: url('../img/dancarino.png');
+    margin-left: 3%;
+    
+
 }
 
 img{
