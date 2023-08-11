@@ -18,6 +18,10 @@ header {
     font-size: 1.2em;
 }
 
+.logo-topo{
+    width: 18%;
+}
+
 nav{
     font-size: 1.2em;
     color: #88A1D9;
@@ -89,7 +93,6 @@ footer{
     color: #7ca1f0;
     font-size: 1.2em;
     text-align: center;
-
 }
 
 .icone{
