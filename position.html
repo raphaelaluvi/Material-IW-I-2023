@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="css/reset.css">
 
     <style>
+        body{
+            background-color: #8ba8e7a6;
+        }
+
         h1{
             color: #0d265c;
             font-size: 1.4em;
@@ -17,6 +21,10 @@
             color: #88A1D9;
             text-align: center;
             font-size: 1.4em;
+        }
+
+        .voltar{
+            border-style: double;
         }
 
         p{
@@ -59,25 +67,32 @@
         .topes{
             position: absolute;
             top: 10px;
-            left: 4px;
+            left: 5px;
         }
 
         .topdi{
             position: absolute;
             top: 10px;
-            right: 4px;
+            right: 5px;
         }
 
         .bottomes{
             position: absolute;
             bottom: 10px;
-            left: 4px;
+            left: 5px;
         }
 
         .bottomdi{
             position: absolute;
             bottom: 10px;
-            right: 4px;
+            right: 5px;
+        }
+
+        .centro{
+            position: absolute;
+            top: 50%;
+            text-align: center;
+            width: 100%;
         }
     </style>
 </head>
@@ -85,19 +100,21 @@
     <header>
         <nav class="menu">
             <ul>
-                <li><a href="index.html">Voltar</a></li>
+                <li class="voltar"><a href="index.html">Voltar</a></li>
                 <h2>CSS Interno e Inline</h2>
             </ul>
         </nav>
     </header>
 
-    <p>Teste de posição para texto, menu, footer e imagem.</p>
-    <p>Teste de posição para texto, menu, footer e imagem.</p>
-    <p>Teste de posição para texto, menu, footer e imagem.</p>
-    <p>Teste de posição para texto, menu, footer e imagem.</p>
-    
+    <div class="texto">
+        <p>Teste de posição para texto, menu, footer e imagem.</p>
+        <p>Teste de posição para texto, menu, footer e imagem.</p>
+        <p>Teste de posição para texto, menu, footer e imagem.</p>
+        <p>Teste de posição para texto, menu, footer e imagem.</p>
+    </div>
+
     <div class="container">
-        <img src="img/banner2.jpg" alt="">
+        <img src="img/imgposition.jpg" alt="">
 
         <div class="topes">
             <h1>Topo Esquerda</h1>
@@ -111,6 +128,9 @@
         </div>
         <div class="bottomdi">
             <h1>Bottom Direita</h1> 
+        </div>
+        <div class="centro">
+            <h1>Centralizado</h1>
         </div>
     </div>
     </div>
