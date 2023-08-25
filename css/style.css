@@ -9,17 +9,48 @@ body{
 
 header {
     width:100%;
-    background-color: #0367A6;
+    background-color: #023859;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partfixa{
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    z-index: 1;
 }
 
 .logo{
     color: #88A1D9;
-    text-align: center; 
     font-size: 1.2em;
 }
 
 .logo-topo{
-    width: 18%;
+    width: 25%;
+}
+
+.itens{
+    line-height: 1.5;
+    text-align: center;
+}
+
+.itens a{
+    font-size: 1.1em;
+}
+
+.itens a:hover{
+    padding: 5%;
+    background-color: #064a75;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.itens a:active{
+    background-color: #7ca1f0;
 }
 
 nav{
