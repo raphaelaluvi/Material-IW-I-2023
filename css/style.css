@@ -9,7 +9,7 @@ body{
 
 header {
     width:100%;
-    background-color: #023859;
+    background-color: #1e5d85;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -24,18 +24,16 @@ header {
     z-index: 1;
 }
 
-.logo{
-    color: #88A1D9;
-    font-size: 1.2em;
-}
 
 .logo-topo{
     width: 25%;
 }
 
 .itens{
-    line-height: 1.5;
+    line-height: 2;
     text-align: center;
+    color: #011f31;
+    font-size: 1.1em;
 }
 
 .itens a{
@@ -43,23 +41,25 @@ header {
 }
 
 .itens a:hover{
-    padding: 5%;
+    padding: 1%;
     background-color: #064a75;
     text-decoration: none;
-    border-radius: 50%;
+    border-radius: 20%;
 }
 
 .itens a:active{
-    background-color: #7ca1f0;
-}
-
-nav{
-    font-size: 1.2em;
-    color: #88A1D9;
-    text-align: center;
+    background-color: #1e5d85;
 }
 
 .banner{
+    width: 100%;
+}
+
+.bannermusica{
+    width: 100%;
+}
+
+.bannercontato{
     width: 100%;
 }
 
@@ -75,6 +75,14 @@ h1 {
     font-size: 1.5em;
     padding-top: 1.5%;
     padding-bottom: 1.5%;
+}
+
+.desenvolvido{
+    color: #7ca1f0;
+    text-align: center;
+    font-size: 1.2em;
+    padding-top: 1.5%;
+    padding-bottom: 1%;
 }
 
 h2 {
@@ -115,12 +123,11 @@ p{
 
 img{
     width: 30%;
-
 }
 
 footer{
     width:100%;
-    background-color:#064a75;
+    background-color: #1e5d85;
     color: #7ca1f0;
     font-size: 1.2em;
     text-align: center;
@@ -128,6 +135,7 @@ footer{
 
 .icone{
     width: 3%;
+    padding-top: 1%;
 }
 
 figcaption{
@@ -139,10 +147,6 @@ figcaption{
     line-height: 1.3;
     font-size: 0.9em;
     text-indent: 15px;
-}
-
-a{
-    color: #88A1D9;
 }
 
 .imgesquerda{
@@ -178,11 +182,63 @@ a{
 }
 
 @media (max-width: 800px){
+
     .linha{
         flex-direction: column;
     }
+
     .col-6{
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .banner{
+        margin-top: 30%;
+    }
+
+    .logo{
+        padding-top: 1%;
+
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 601px) {
+
+    header{
+        flex-direction: row;
+    }
+
+    .itens{
+        position: absolute;
+        right: 1%;
+        top: 35%;
+        width: 70%;
+    }
+
+    .itens ul li{
+        display: inline;
+        margin-left: 1%;
+    }
+
+    .logo{
+        padding-left: 2%;
+        text-align: left;
+        width: 30%;
+    }
+
+    .banner{
+        margin-top: 7%;
+    }
+
+    .bannermusica{
+        margin-top: 7%;
+    }
+
+    .bannercontato{
+        margin-top: 7%;
     }
 }
 
