@@ -26,7 +26,7 @@ header {
 
 
 .logo-topo{
-    width: 25%;
+    width: 30%;
 }
 
 .itens{
@@ -37,11 +37,11 @@ header {
 }
 
 .itens a{
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 .itens a:hover{
-    padding: 1%;
+    padding: 0.75%;
     background-color: #064a75;
     text-decoration: none;
     border-radius: 20%;
@@ -230,15 +230,15 @@ figcaption{
     }
 
     .banner{
-        margin-top: 7%;
+        margin-top: 9%;
     }
 
     .bannermusica{
-        margin-top: 7%;
+        margin-top: 9%;
     }
 
     .bannercontato{
-        margin-top: 7%;
+        margin-top: 9%;
     }
 }
 
