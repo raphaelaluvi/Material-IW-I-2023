@@ -289,3 +289,27 @@ td, th{
 tr:nth-child(even) {
     background-color: #064a75;
 }
+
+.bordacontato{
+    background-color:  #3b779cda;
+    padding: 3%;
+    border-radius: 25px;
+    margin-top: 1%;
+    box-sizing: border-box;
+    width: 80%;
+    margin: auto;
+}
+
+label {
+    padding: 10px 10px 10px 0;
+    display: inline-block;
+}
+
+input[type=text], select, textarea, input[type=tel], input[type=email] {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    resize: vertical;
+    font-family: 'EduNSWACTFoundation-VariableFont_wght',cursive;
+}
