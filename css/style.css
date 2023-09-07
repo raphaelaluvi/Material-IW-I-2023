@@ -350,7 +350,9 @@ input[type=email]:focus{
 }
   
 .row:after {
-  
+    content: "";
+    display: table;
+    clear: both;
 }
 
 input[type=submit] {
