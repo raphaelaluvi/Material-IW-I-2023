@@ -292,7 +292,7 @@ tr:nth-child(even){
 }
 
 .bordacontato{
-    background-color:  #3b779cda;
+    background-color: #3b779cda;
     padding: 3%;
     border-radius: 25px;
     margin-top: 1%;
@@ -310,7 +310,7 @@ label{
 input[type=text], select, textarea, input[type=tel], input[type=email] {
     width: 90%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 2px dashed #03283d;
     border-radius: 15px;
     resize: vertical;
     font-family: 'EduNSWACTFoundation-VariableFont_wght',cursive;
@@ -361,7 +361,7 @@ input[type=submit] {
     margin-top: 0.75%;
     padding: 10px 15px;
     border: none;
-    border-radius: 4px;
+    border-radius: 10px;
     cursor: pointer;
     float: right;
 }
