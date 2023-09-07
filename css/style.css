@@ -287,7 +287,7 @@ td, th{
     color: #7ca1f0;
 }
   
-tr:nth-child(even) {
+tr:nth-child(even){
     background-color: #064a75;
 }
 
@@ -302,7 +302,7 @@ tr:nth-child(even) {
     margin-bottom: 2%;
 }
 
-label {
+label{
     padding: 10px 10px 10px 0;
     display: inline-block;
 }
