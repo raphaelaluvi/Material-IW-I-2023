@@ -299,6 +299,7 @@ tr:nth-child(even) {
     box-sizing: border-box;
     width: 80%;
     margin: auto;
+    margin-bottom: 2%;
 }
 
 label {
