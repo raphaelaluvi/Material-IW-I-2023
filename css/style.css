@@ -241,6 +241,19 @@ figcaption{
     .banner{
         margin-top: 9%;
     }
+
+    
+    .col-25{
+        width: 25%;
+        float: left;
+        margin-top: 6px;
+    }
+    
+    .col-75{
+    width: 75%;
+    float: left;
+    margin-top: 6px;
+    }
 }
 
 .imgcard{
@@ -337,17 +350,6 @@ input[type=email]:focus{
 }
 
 
-.col-25{
-    width: 25%;
-    float: left;
-    margin-top: 6px;
-}
-  
-.col-75{
-  width: 75%;
-  float: left;
-  margin-top: 6px;
-}
   
 .row:after {
     content: "";
