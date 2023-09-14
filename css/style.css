@@ -97,13 +97,14 @@ p{
     color: #a9b7d6;
     padding-top: 1%;
     padding-bottom: 1%;
-    padding-left: 1%;
-    padding-right: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
     line-height: 1.3;
     font-size: 1.1em;
     text-align: justify;
     text-indent: 25px;
 }
+
 
 .listameio li{
     color: #a9b7d6;
@@ -211,6 +212,18 @@ figcaption{
 
     .icone{
         width: 7%;
+    }
+
+    p{
+        margin: 3%;
+    }
+
+    .imgesquerda{
+        width: 40%;
+    }
+
+    .imgcentro{
+        width: 40%;
     }
 }
 
